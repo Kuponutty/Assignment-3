@@ -12,8 +12,19 @@
    Filename:   lht_columns.css
 
 */
+h1{
+   column-span:all;
+}
 
-
+article{
+   column-width: 260px;
+   column-gap: 20px;
+   column-rule-style:solid;
+   column-rule-width: 1px;
+   column-rule-color:rgb(154, 64, 31);
+   orphans: 2;
+   widows: 2;
+}
 
 /* Column Styles */
 
